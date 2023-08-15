@@ -1,0 +1,22 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* trabajo en el header */
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+
+
+/* trabajo en el hero */
+.hola{
+    background-color: red;
+}

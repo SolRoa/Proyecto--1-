@@ -8,15 +8,51 @@ html{
 
 /* trabajo en el header */
 header{
-    background-color: antiquewhite;
+    background-color: burlywood;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 100px;
 }
-.logo
-
+.logo{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo span{
+    color: #00A78E;
+}
+a{
+    position: relative;
+    color: #F9F9F9;
+    font-family: 'Mukta Malar', sans-serif;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+a::before{
+    content: "";
+    border-bottom: 2px solid #F9F9F9;
+    position: absolute;
+    bottom: 0px;
+    width: 10%;
+    left: 0;
+    transition: 0.5s;
+}
+a:hover:before{
+    content: "";
+    border-bottom: 2px solid #F9F9F9;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+}
 
 /* trabajo en el hero */
-.hola{
-    background-color: red;
+.hero{
+    background-color: #00A78E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

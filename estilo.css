@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -20,7 +21,7 @@ header{
 .logo span{
     color: #00A78E;
 }
-a{
+nav a{
     position: relative;
     color: #F9F9F9;
     font-family: 'Mukta Malar', sans-serif;
@@ -31,7 +32,7 @@ nav{
     justify-content: space-between;
     width: 40%;
 }
-a::before{
+nav a::before{
     content: "";
     border-bottom: 2px solid #F9F9F9;
     position: absolute;
@@ -40,7 +41,7 @@ a::before{
     left: 0;
     transition: 0.5s;
 }
-a:hover:before{
+nav a:hover:before{
     content: "";
     border-bottom: 2px solid #F9F9F9;
     position: absolute;
@@ -51,8 +52,34 @@ a:hover:before{
 
 /* trabajo en el hero */
 .hero{
+    margin: 0px 100px;
     background-color: #00A78E;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.hero-redes{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+    border: 1px solid #D0EEEA;
+}
+.facebook , .instagram, .twitter, .link{
+    position: relative;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 20px 8px;
+    fill: #ACB2BE;
+    transition: 0.5s;
+}
+
+.facebook:hover, .instagram:hover, .twitter:hover, .instagram:hover, .link:hover{
+    fill: #00A78E;
+}
+
+
+.hero-texto h3{
+    font-family: 'Mukta Malar', sans-serif;
 }

@@ -287,7 +287,14 @@ nav a:hover:before{
     display: flex;
 }
 .tarjeta{
-    border: 2px solid black;
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 20%);
+}
+.int-tarjeta{
+    margin: 25px;
 }
 .service h2{
     font-family: 'Montserrat', sans-serif;

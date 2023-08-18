@@ -292,6 +292,7 @@ nav a:hover:before{
     height: 250px;
     border-radius: 5px;
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 20%);
+    transition: .3s;
 }
 .int-tarjeta{
     margin: 25px;
@@ -314,5 +315,19 @@ nav a:hover:before{
     justify-content: center;
     align-items: center;
 }
+.tarjeta:hover{
+    background-color: #00A78E;
+}
+.tarjeta:hover p{
+    color: #fff;
+}
+.tarjeta:hover .icono{
+    background-color: #fff;
+}
+.tarjeta:hover svg{
+    fill: #00A78E;
+
+}
+
 
 

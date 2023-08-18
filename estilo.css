@@ -1,14 +1,12 @@
-html{
+body{
     margin: 0;
     padding: 0;
-   
 }
 
 
 
 /* trabajo en el header */
 header{
-    background-color: #979EAE;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +49,11 @@ nav a:hover:before{
 
 /* trabajo en el hero */
 .hero{
-    background-color: antiquewhite;
+    background-image: url(imagenes/fondo-prueba.png);
+    background-position: center;
+    background-size: cover;
+}
+.hero-todo{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -129,7 +131,7 @@ nav a:hover:before{
 .hero-texto button:hover{
     background-color: #2fae9b;
 }
-.hero-cont-img{
+.hero-img{
     margin-right: 150px;
 }
 
